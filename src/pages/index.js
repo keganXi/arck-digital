@@ -1,12 +1,17 @@
 // React imports.
 import * as React from "react"
 
+// Component imports.
+import Navbar from "../components/Navbar";
+
 // markup
 const IndexPage = () => {
   return (
-    <main className="container mx-auto">
+    <main>
       <title>Home Page</title>
-      <h1 className="text-black text-lg">Hello World</h1>
+      
+      <Navbar />
+
     </main>
   )
 }
