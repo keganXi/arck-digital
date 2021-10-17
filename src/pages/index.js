@@ -18,15 +18,15 @@ const IndexPage = () => {
 
       <section>
 
-        <div className="my-10 container mx-auto p-6">
+        <div className="md:my-10 md:px-12 mx-auto p-6">
           <Intro /> 
         </div>
 
-        <div className="mt-40">
+        <div className="md:mt-40 mt-64">
           <About />
         </div>
 
-        <div className="mt-20 container mx-auto p-6">
+        <div className="mt-20 md:px-12 mx-auto p-6">
           <Services />
         </div>
         

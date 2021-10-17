@@ -7,13 +7,13 @@ class About extends Component{
         return(
             <div>
                 <div className="w-full bg-primary text-white">
-                    <div className="container mx-auto p-6">
+                    <div className="md:px-12 mx-auto p-6">
                         <div className="my-10">
                             <div className="pb-4">
                                 <h1 className="text-lg font-bold">About</h1>
                             </div>
                             
-                            <div className="flex">
+                            <div className="md:flex">
                                 <div className="w-full">
                                     <div className="relative">
                                         <div className="py-3">
@@ -31,7 +31,7 @@ class About extends Component{
                                     </div>
                                 </div>
 
-                                <div className="w-full">
+                                <div className="w-full mt-7 md:mt-0">
                                     <div className="relative">
                                         <div className="py-3">
                                             <p className="font-semibold text-sm-l">Your success is our success</p>

@@ -35,7 +35,7 @@ class Services extends Component{
                     <h1 className="text-lg font-bold">Services</h1>
                 </div>
                 
-                <div className="flex justify-center">
+                <div className="md:flex justify-center">
                     { this.state.services.map(item => servicesCards({ item: item })) }
                 </div>
             </div>
@@ -46,7 +46,7 @@ class Services extends Component{
 
 const servicesCards = (props) => {
     return(
-        <div className="m-10 w-full" key={props.item.ID}>
+        <div className="md:m-10 w-full" key={props.item.ID}>
             <div className="p-4">
                 <div className="text-center pb-3">
                     <p className="text-md font-semibold">{ props.item.title }</p>

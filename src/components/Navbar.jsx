@@ -11,7 +11,7 @@ class Navbar extends Component{
     render(){
         return(
             <navbar className="bg-white w-full">
-                <div className="container mx-auto p-6">
+                <div className="md:px-12 mx-auto p-6">
                     <div className="inline-block flex">
                         <div className="w-full">
                             <div className="flex">
@@ -22,7 +22,7 @@ class Navbar extends Component{
                             </div>
                         </div> 
                         
-                        <div className="w-full">
+                        <div className="w-full sm:block hidden">
                             <div className="text-right">
                                 <span className="mr-6 font-semibold text-primary text-x-sm cursor-pointer">Case Study</span>
                                 <span className="text-primary font-semibold text-x-sm cursor-pointer">Let's talk</span>
