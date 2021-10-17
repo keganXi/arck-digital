@@ -8,6 +8,9 @@ import Navbar from "../components/Navbar";
 import EcommerceBanner from "../images/e-commerce.svg";
 import AnalyticsBanner from "../images/custom-icon.svg";
 import PaymentBanner from "../images/payment-solution.svg";
+import TwitterIcon from "../images/twitter.svg";
+import InstagramIcon from "../images/instagram.svg";
+import LinkedinIcon from "../images/linkedin-in.svg";
 
 
 // markup
@@ -32,6 +35,28 @@ const IndexPage = () => {
                 <div className="pt-7">
                   <button className="rounded-lg bg-primary py-3 px-6 text-white font-semibold hover:bg-primary-hover duration-300">Let's talk</button>
                   <button className="rounded-lg bg-primary py-3 px-6 text-white font-semibold mx-4 hover:bg-primary-hover duration-300">How we work</button>
+                </div>
+
+                <div className="pt-9">
+                  <div className="flex">
+                    <div>
+                      <div className="rounded-full shadow-md p-3">
+                        <img src={TwitterIcon} height="16px" width="16px" alt="twitter icon"/>
+                      </div>
+                    </div>
+
+                    <div className="mx-4">
+                      <div className="rounded-full shadow-md p-3">
+                        <img src={InstagramIcon} height="16px" width="16px" alt="instagram icon"/>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div className="rounded-full shadow-md p-3">
+                        <img src={LinkedinIcon} height="16px" width="16px" alt="linkedin icon"/>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
