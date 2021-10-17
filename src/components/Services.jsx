@@ -22,7 +22,7 @@ class Services extends Component{
                 {
                     ID: 3,
                     title: "Tailormade",
-                    detail: "Our tailormade software is meant to serve your business the right way. We scope out your business needs and requirement to produce an amazing product."
+                    detail: "Our tailormade software is meant to serve your business the right way. We scope out your business needs and requirements to produce an amazing product."
                 }
             ]
         }
