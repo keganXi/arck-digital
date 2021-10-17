@@ -21,7 +21,7 @@ class About extends Component{
                                         </div>
                                         <div className="w-10/12">
                                             <p className="text-sm">
-                                                Here at Arck digital what we do is plan and create digital solutions and strategies around your business and customer base giving you the best possible chance of succeeding.
+                                                Here at Arck digital what we do is plan and create digital solutions and strategize around your business and customer base giving you the best possible chance of succeeding.
                                             </p>
                                         </div>
 
