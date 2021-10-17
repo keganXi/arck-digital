@@ -21,15 +21,15 @@ const IndexPage = () => {
       
       <Navbar />
 
-      <section className="container mx-auto pt-20 p-6">
+      <section className="container mx-auto p-6">
 
-        <div className="my-14">
+        <div className="my-10">
           <div className="flex">
             <div className="w-full">
               <div className="pt-14">
                 <h1 className="font-bold text-primary text-lg">Strategize Build Deploy</h1>
                 <div className="pt-1">
-                  <p className="text-sm text-gray-400">Take your business to the next level with our innovative and tailormade solutions.</p>
+                  <p className="text-sm text-gray-400 font-semibold">Take your business to the next level with our innovative and tailormade solutions.</p>
                 </div>
 
                 <div className="pt-7">
