@@ -24,8 +24,8 @@ class Navbar extends Component{
                         
                         <div className="w-full">
                             <div className="text-right">
-                                <span className="mr-6 hover:font-semibold text-primary text-x-sm cursor-pointer">Case Study</span>
-                                <span className="text-primary hover:font-semibold text-x-sm cursor-pointer">Let's talk</span>
+                                <span className="mr-6 font-semibold text-primary text-x-sm cursor-pointer">Case Study</span>
+                                <span className="text-primary font-semibold text-x-sm cursor-pointer">Let's talk</span>
                             </div>
                         </div>  
                     </div>   
