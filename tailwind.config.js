@@ -5,12 +5,14 @@ module.exports = {
     extend: {
       colors: {
         "primary": "#2b2b2b",
+        "p-blue": "#d4ebf2",
         "primary-hover": "#414141"
       },
 
       fontSize: {
         "x-sm": "16px",
         "sm": "18px",
+        "sm-l": "24px",
         "md": "30px",
         "lg": "50px"
       },
