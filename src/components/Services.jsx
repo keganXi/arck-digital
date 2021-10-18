@@ -46,7 +46,7 @@ class Services extends Component{
 
 const servicesCards = (props) => {
     return(
-        <div className="md:m-10 w-full" key={props.item.ID}>
+        <div className="lg:m-10 mt-7 w-full" key={props.item.ID}>
             <div className="p-4">
                 <div className="text-center pb-3">
                     <p className="text-md font-semibold">{ props.item.title }</p>
