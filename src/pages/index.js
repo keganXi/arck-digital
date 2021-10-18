@@ -26,7 +26,7 @@ const IndexPage = () => {
           <About />
         </div>
 
-        <div className="mt-20 lg:px-12 mx-auto md:p-6">
+        <div className="mt-20 lg:px-12 mx-auto sm:p-6">
           <Services />
         </div>
         

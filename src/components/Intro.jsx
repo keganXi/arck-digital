@@ -27,7 +27,7 @@ class Intro extends Component {
 
                             <div className="pt-7">
                                 <button className="rounded-lg bg-primary py-3 px-6 text-white font-semibold hover:bg-primary-hover duration-300">Let's talk</button>
-                                <button className="rounded-lg bg-primary py-3 px-6 text-white font-semibold mx-4 hover:bg-primary-hover duration-300">How we work</button>
+                                <button className="rounded-lg bg-primary py-3 px-6 text-white font-semibold mx-1 sm:mx-4 hover:bg-primary-hover duration-300">How we work</button>
                             </div>
 
                             <div className="pt-9">
