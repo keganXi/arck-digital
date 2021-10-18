@@ -34,7 +34,6 @@ class Navbar extends Component{
             <div>
 
                 { this.state.onMenu? sidebar({onClose: this.onClose}) : false }
-                
 
                 <navbar className="bg-white w-full">
                     <div className="md:px-12 mx-auto p-6">
@@ -50,8 +49,8 @@ class Navbar extends Component{
                             
                             <div className="w-full">
                                 <div className="text-right mt-3">
-                                    <button onClick={() => this.onOpen()}>
-                                        <img src={MenuIcon} alt="menu" className="inline-block sm:hidden" height="20px" width="20px" />
+                                    <button onClick={() => this.onOpen()} className="inline-block sm:hidden">
+                                        <img src={MenuIcon} alt="menu" height="20px" width="20px" />
                                     </button>
                                     <div className="sm:block hidden">
                                         <span className="mr-6 font-semibold text-primary text-x-sm cursor-pointer">Case Study</span>
@@ -93,10 +92,10 @@ const sidebar = (props) => {
                 
             </div>
 
-            <div className="p-7">
-                <div className="text-center text-white text-sembold text-sm-l">
+            <div>
+                <div className="text-center text-white text-sembold text-md">
                     <div className="m-4">
-                        <h1>Let's talk</h1>
+                        <h1>Services</h1>
                     </div>
                     
                     <div className="m-4">
@@ -104,7 +103,7 @@ const sidebar = (props) => {
                     </div>
 
                     <div className="m-4">
-                        <h1>Services</h1>
+                        <h1>Let's talk</h1>
                     </div>
                 </div>
             </div>
