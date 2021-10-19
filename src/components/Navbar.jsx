@@ -33,7 +33,7 @@ class Navbar extends Component{
         return(
             <div>
 
-                { this.state.onMenu? sidebar({onClose: this.onClose}) : false }
+                { this.state.onMenu? sidebar({ onClose: this.onClose }) : false }
 
                 <navbar className="bg-white w-full">
                     <div className="md:px-12 mx-auto p-6">
