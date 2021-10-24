@@ -1,5 +1,6 @@
 // React imports.
 import React, { Component } from "react";
+import { Link } from "gatsby";
 
 
 // Images imports.
@@ -9,6 +10,7 @@ import PaymentBanner from "../images/payment-solution.svg";
 import TwitterIcon from "../images/twitter.svg";
 import InstagramIcon from "../images/instagram.svg";
 import LinkedinIcon from "../images/linkedin-in.svg";
+
 
 
 class Intro extends Component {
@@ -26,7 +28,9 @@ class Intro extends Component {
                             </div>
 
                             <div className="pt-7">
-                                <button className="rounded-lg bg-primary py-3 px-6 text-white font-semibold hover:bg-primary-hover duration-300">Let's talk</button>
+                                <Link to="/contact">
+                                    <button className="rounded-lg bg-primary py-3 px-6 text-white font-semibold hover:bg-primary-hover duration-300">Let's talk</button>
+                                </Link>
                                 <button className="rounded-lg bg-primary py-3 px-6 text-white font-semibold mx-1 sm:mx-4 hover:bg-primary-hover duration-300">How we work</button>
                             </div>
 

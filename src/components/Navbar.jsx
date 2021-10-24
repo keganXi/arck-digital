@@ -1,7 +1,6 @@
 // React imports.
 import React, { Component } from "react";
-
-// Gatsby imports.
+import { Link } from "gatsby"
 
 // Image imports.
 import ShipIcon from "../images/ship.svg";
@@ -53,8 +52,13 @@ class Navbar extends Component{
                                         <img src={MenuIcon} alt="menu" height="20px" width="20px" />
                                     </button>
                                     <div className="sm:block hidden">
-                                        <span className="mr-6 font-semibold text-primary text-x-sm cursor-pointer">Case Study</span>
-                                        <span className="text-primary font-semibold text-x-sm cursor-pointer">Let's talk</span>
+                                        <Link to="/">
+                                            <span className="text-primary font-semibold text-x-sm cursor-pointer">Home</span>
+                                        </Link>
+                                        <span className="mx-6 font-semibold text-primary text-x-sm cursor-pointer">Case Study</span>
+                                        <Link to="/contact">
+                                            <span className="text-primary font-semibold text-x-sm cursor-pointer">Let's talk</span>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>  
@@ -95,6 +99,12 @@ const sidebar = (props) => {
             <div>
                 <div className="text-center text-white text-sembold text-md">
                     <div className="m-4">
+                        <Link to="/">
+                            <h1>Home</h1>
+                        </Link>
+                    </div>
+
+                    <div className="m-4">
                         <h1>Services</h1>
                     </div>
                     
@@ -103,7 +113,9 @@ const sidebar = (props) => {
                     </div>
 
                     <div className="m-4">
-                        <h1>Let's talk</h1>
+                        <Link to="/contact">
+                            <h1>Let's talk</h1>
+                        </Link>
                     </div>
                 </div>
             </div>
