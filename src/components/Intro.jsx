@@ -11,8 +11,6 @@ import TwitterIcon from "../images/twitter.svg";
 import InstagramIcon from "../images/instagram.svg";
 import LinkedinIcon from "../images/linkedin-in.svg";
 
-
-
 class Intro extends Component {
     render(){
         return(
@@ -37,21 +35,27 @@ class Intro extends Component {
                             <div className="pt-9">
                                 <div className="flex">
                                     <div>
-                                        <div className="rounded-full shadow-md p-3">
-                                            <img src={TwitterIcon} height="16px" width="16px" alt="twitter icon"/>
-                                        </div>
+                                        <a href="https://twitter.com/ArckDigital" target="_blank">
+                                            <div className="rounded-full shadow-md p-3">
+                                                <img src={TwitterIcon} height="16px" width="16px" alt="twitter icon"/>
+                                            </div>
+                                        </a>
                                     </div>
 
                                     <div className="mx-4">
-                                        <div className="rounded-full shadow-md p-3">
-                                            <img src={InstagramIcon} height="16px" width="16px" alt="instagram icon"/>
-                                        </div>
+                                        <a href="https://www.instagram.com/arck_digital/" target="_blank">
+                                            <div className="rounded-full shadow-md p-3">
+                                                <img src={InstagramIcon} height="16px" width="16px" alt="instagram icon"/>
+                                            </div>
+                                        </a>
                                     </div>
 
                                     <div>
-                                        <div className="rounded-full shadow-md p-3">
-                                            <img src={LinkedinIcon} height="16px" width="16px" alt="linkedin icon"/>
-                                        </div>
+                                        <a href="https://www.linkedin.com/company/arck-digital" target="_blank">
+                                            <div className="rounded-full shadow-md p-3">
+                                                <img src={LinkedinIcon} height="16px" width="16px" alt="linkedin icon"/>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
