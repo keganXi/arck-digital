@@ -13,7 +13,26 @@ class Navbar extends Component{
     constructor(props){
         super(props)
         this.state = {
-            onMenu: false
+            onMenu: false,
+            navbarContent: [
+                {
+                    ID: 1, 
+                    title: "Home",
+                    link: "/"
+                },
+
+                {
+                    ID: 2, 
+                    title: "How we work",
+                    link: "#"
+                },
+
+                {
+                    ID: 3, 
+                    title: "Let's talk",
+                    link: "/contact"
+                }
+            ]
         };
 
         this.onOpen = this.onOpen.bind(this);
@@ -29,10 +48,19 @@ class Navbar extends Component{
     }
 
     render(){
+
+        const navbarLinks = data => {
+            return(
+                <Link to={ data.link } key={data.ID} className="mx-6">
+                    <span className="text-primary font-semibold text-x-sm cursor-pointer">{ data.title }</span>
+                </Link>
+            )
+        };
+
         return(
             <div>
 
-                { this.state.onMenu? sidebar({ onClose: this.onClose }) : false }
+                { this.state.onMenu? sidebar({ onClose: this.onClose, data: this.state.navbarContent }) : false }
 
                 <navbar className="bg-white w-full">
                     <div className="md:px-12 mx-auto p-6">
@@ -52,13 +80,7 @@ class Navbar extends Component{
                                         <img src={MenuIcon} alt="menu" height="20px" width="20px" />
                                     </button>
                                     <div className="sm:block hidden">
-                                        <Link to="/">
-                                            <span className="text-primary font-semibold text-x-sm cursor-pointer">Home</span>
-                                        </Link>
-                                        <span className="mx-6 font-semibold text-primary text-x-sm cursor-pointer">Case Study</span>
-                                        <Link to="/contact">
-                                            <span className="text-primary font-semibold text-x-sm cursor-pointer">Let's talk</span>
-                                        </Link>
+                                        { this.state.navbarContent.map((item) => navbarLinks(item)) }
                                     </div>
                                 </div>
                             </div>  
@@ -72,6 +94,15 @@ class Navbar extends Component{
 
 
 const sidebar = (props) => {
+    const sidebarLinks = data => {
+        return(
+        <div className="m-4" key={data.ID}>
+            <Link to={ data.link }>
+                <h1>{ data.title }</h1>
+            </Link>
+        </div>)
+    };
+
     return(
         <div className="bg-primary w-full h-full z-50 fixed">
             <div className="text-white p-6">
@@ -98,25 +129,7 @@ const sidebar = (props) => {
 
             <div>
                 <div className="text-center text-white text-sembold text-md">
-                    <div className="m-4">
-                        <Link to="/">
-                            <h1>Home</h1>
-                        </Link>
-                    </div>
-
-                    <div className="m-4">
-                        <h1>Services</h1>
-                    </div>
-                    
-                    <div className="m-4">
-                        <h1>How we work</h1>
-                    </div>
-
-                    <div className="m-4">
-                        <Link to="/contact">
-                            <h1>Let's talk</h1>
-                        </Link>
-                    </div>
+                    { props.data.map((item) => sidebarLinks(item)) }
                 </div>
             </div>
         </div>
