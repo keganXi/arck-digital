@@ -1,9 +1,9 @@
 // React imports
 import React, { Component } from "react";
-import { Link } from "gatsby"
 
 // Component imports.
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer.jsx";
 
 
 class Contact extends Component{
@@ -54,6 +54,8 @@ class Contact extends Component{
                         </section>
                     </div>
                 </main>
+
+                <Footer />
                 
             </div>
         );

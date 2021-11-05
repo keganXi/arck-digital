@@ -7,6 +7,7 @@ import Intro from "../components/Intro.jsx";
 import About from "../components/About.jsx";
 import Services from "../components/Services.jsx";
 import Contact from "../components/Contact.jsx";
+import Footer from "../components/Footer.jsx";
 
 
 // markup
@@ -34,9 +35,10 @@ const IndexPage = () => {
         <div className="mt-10 md:px-12 mx-auto p-6">
           <Contact />
         </div>
-        
 
       </section>
+
+      <Footer />
 
     </main>
   )
