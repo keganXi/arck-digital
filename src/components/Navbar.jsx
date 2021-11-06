@@ -51,7 +51,7 @@ class Navbar extends Component{
 
         const navbarLinks = data => {
             return(
-                <Link to={ data.link } key={data.ID} className="mx-6">
+                <Link to={ data.link } key={data.ID} className="mx-3 lg:mx-6">
                     <span className="text-primary font-semibold text-x-sm cursor-pointer">{ data.title }</span>
                 </Link>
             )
