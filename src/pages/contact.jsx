@@ -13,7 +13,7 @@ class Contact extends Component{
                 <Navbar />
 
                 <main className="md:my-10 justify-center flex">
-                    <div className="sm:w-2/5 p-6 sm:p-0">
+                    <div className="sm:w-3/5 lg:w-2/5 p-6 sm:p-0">
                         <header className="mb-8">
                             <h1 className="font-bold text-primary text-md-sm sm:text-lg ">Let's talk</h1>
                             <p className="text-gray-400">Fill in the form below and we will get back to you as soon as possible : )</p>
