@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "primary": "#2b2b2b",
-        "p-blue": "#d4ebf2",
+        "p-blue": "#add8e6",
         "primary-hover": "#414141"
       },
 
@@ -15,7 +15,8 @@ module.exports = {
         "sm-l": "24px",
         "md": "30px",
         "md-sm": "35px",
-        "lg": "50px"
+        "lg": "50px",
+        "lg-x": "150px",
       },
     },
   },
