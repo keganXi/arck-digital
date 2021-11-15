@@ -24,7 +24,7 @@ class Navbar extends Component{
                 {
                     ID: 2, 
                     title: "How we work",
-                    link: "#"
+                    link: "/how-we-work"
                 },
 
                 {
