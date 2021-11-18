@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import InsightAndRequirements from "../components/InsightAndRequirements";
 import DesignAndPrototyping from "../components/DesignAndPrototyping";
+import DevelopmentAndTesting from "../components/DevelopmentAndTesting";
 
 
 const HowWeWork = () => {
@@ -24,9 +25,14 @@ const HowWeWork = () => {
                         <InsightAndRequirements />
                     </div>
 
-                    <div className="pt-28">
+                    <div className="pt-16 sm:pt-28">
                         <DesignAndPrototyping />
                     </div>
+
+                    <div className="pt-16 sm:pt-28">
+                        <DevelopmentAndTesting />
+                    </div>
+
                 </section>
             </main>            
 

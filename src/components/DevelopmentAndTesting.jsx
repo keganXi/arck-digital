@@ -2,15 +2,15 @@
 import React, { Component } from "react";
 
 // Image imports.
-import InsightAndReqImage from "../images/insight-and-requirements.jpg";
+import DevelopmentAndTestingImage from "../images/development-and-testing.png";
 
 
-class InsightAndRequirements extends Component{
+class DevelopmentAndTesting extends Component{
     constructor(props){
         super(props);
         this.state = {
-            title: "Insight and requirements",
-            description: "Upon our initial consultation we gain insight into the client's business needs and gather the requirements to help us scope out the project so we can execute it in the right way.",
+            title: "Development and testing",
+            description: "Development is what we do best, After the design and prototyping process we start to develop the application using best practices with modern technologies putting it through rigorous testing to produce an amazing product.",
         };
     }
 
@@ -20,7 +20,7 @@ class InsightAndRequirements extends Component{
                 <div className="sm:flex">
                     <div className="w-full justify-center flex sm:hidden pb-7">
                         <div>
-                            <img src={InsightAndReqImage} width="500px" height="500px" alt="insight and requirements image" />
+                            <img src={DevelopmentAndTestingImage} width="230px" height="230px" alt="development and testing image" />
                         </div>
                     </div>
 
@@ -34,14 +34,14 @@ class InsightAndRequirements extends Component{
                             </div>
 
                             <div className="absolute top-0 left-3">
-                                <h1 className="text-lg-x text-p-blue font-bold text-opacity-25">1</h1>
+                                <h1 className="text-lg-x text-p-blue font-bold text-opacity-25">3</h1>
                             </div>  
                         </div>
                     </div>
 
                     <div className="w-full justify-center sm:flex sm:pt-0 hidden">
                         <div>
-                            <img src={InsightAndReqImage} width="500px" height="500px" alt="insight and requirements image" />
+                            <img src={DevelopmentAndTestingImage} width="250px" height="250px" alt="development and testing image" />
                         </div>
                     </div>
                 </div>
@@ -51,4 +51,4 @@ class InsightAndRequirements extends Component{
 }
 
 
-export default InsightAndRequirements;
+export default DevelopmentAndTesting;

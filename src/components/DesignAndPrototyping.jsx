@@ -2,11 +2,10 @@
 import React, { Component } from "react";
 
 // Image imports.
-import InsightAndReqImage from "../images/insight-and-requirements.jpg";
 import ConstructImage from "../images/construct.png";
 
 
-class InsightAndRequirements extends Component{
+class DesignAndPrototyping extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -19,7 +18,7 @@ class InsightAndRequirements extends Component{
         return(
             <div>
                 <div className="sm:flex">
-                    <div className="w-full flex">
+                    <div className="w-full flex pb-7 sm:pb-0">
                         <div className="flex">
                             <img src={ConstructImage} width="335px" height="335px" alt="design and prototype image" />
                         </div>
@@ -46,4 +45,4 @@ class InsightAndRequirements extends Component{
 }
 
 
-export default InsightAndRequirements;
+export default DesignAndPrototyping;
