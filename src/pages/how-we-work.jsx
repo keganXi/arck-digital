@@ -8,6 +8,7 @@ import InsightAndRequirements from "../components/InsightAndRequirements";
 import DesignAndPrototyping from "../components/DesignAndPrototyping";
 import DevelopmentAndTesting from "../components/DevelopmentAndTesting";
 import Deployment from "../components/Deployment";
+import Contact from "../components/Contact";
 
 
 const HowWeWork = () => {
@@ -36,6 +37,10 @@ const HowWeWork = () => {
 
                     <div className="pt-16 sm:pt-36">
                         <Deployment />
+                    </div>
+
+                    <div className="pt-16 sm:pt-48">
+                        <Contact />
                     </div>
 
                 </section>
