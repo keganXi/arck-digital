@@ -33,7 +33,7 @@ class InsightAndRequirements extends Component{
                         </div>
                     </div>
 
-                    <div className="w-full justify-center pt-10 sm:pt-0">
+                    <div className="w-full justify-center flex pt-10 sm:pt-0">
                         <div>
                             <img src={InsightAndReqImage} width="500px" height="500px" alt="insight and requirements image" />
                         </div>
