@@ -5,6 +5,7 @@ import * as React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import InsightAndRequirements from "../components/InsightAndRequirements";
+import DesignAndPrototyping from "../components/DesignAndPrototyping";
 
 
 const HowWeWork = () => {
@@ -21,6 +22,10 @@ const HowWeWork = () => {
                 <section>
                     <div>
                         <InsightAndRequirements />
+                    </div>
+
+                    <div className="pt-28">
+                        <DesignAndPrototyping />
                     </div>
                 </section>
             </main>            

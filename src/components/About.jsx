@@ -17,10 +17,10 @@ class About extends Component{
                                 <div className="w-full">
                                     <div className="relative">
                                         <div className="py-3">
-                                            <p className="font-semibold text-sm-l">We don't just develop</p>
+                                            <p className="font-semibold text-md">We don't just develop</p>
                                         </div>
                                         <div className="w-10/12">
-                                            <p className="text-sm">
+                                            <p className="text-sm-l">
                                                 Here at Arck digital what we do is plan and create digital solutions and strategize around your business and customer base giving you the best possible chance of succeeding.
                                             </p>
                                         </div>
@@ -34,11 +34,11 @@ class About extends Component{
                                 <div className="w-full mt-7 md:mt-0">
                                     <div className="relative">
                                         <div className="py-3">
-                                            <p className="font-semibold text-sm-l">Your success is our success</p>
+                                            <p className="font-semibold text-md">Your success is our success</p>
                                         </div>
                                         <div className="w-10/12">
-                                            <p className="text-sm">
-                                                We believe that our clients happiness and goals are just as important as our's that's why we strive to deliver quality software that scales.
+                                            <p className="text-sm-l">
+                                                We believe that our clients happiness and goals are just as important as our's that's why we strive to deliver quality and scalable applications.
                                             </p>
                                         </div>
 
