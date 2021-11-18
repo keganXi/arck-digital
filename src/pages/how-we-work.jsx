@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import InsightAndRequirements from "../components/InsightAndRequirements";
 import DesignAndPrototyping from "../components/DesignAndPrototyping";
 import DevelopmentAndTesting from "../components/DevelopmentAndTesting";
+import Deployment from "../components/Deployment";
 
 
 const HowWeWork = () => {
@@ -25,12 +26,16 @@ const HowWeWork = () => {
                         <InsightAndRequirements />
                     </div>
 
-                    <div className="pt-16 sm:pt-28">
+                    <div className="pt-16 sm:pt-36">
                         <DesignAndPrototyping />
                     </div>
 
-                    <div className="pt-16 sm:pt-28">
+                    <div className="pt-16 sm:pt-36">
                         <DevelopmentAndTesting />
+                    </div>
+
+                    <div className="pt-16 sm:pt-36">
+                        <Deployment />
                     </div>
 
                 </section>
