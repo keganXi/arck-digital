@@ -9,11 +9,14 @@ import DesignAndPrototyping from "../components/DesignAndPrototyping";
 import DevelopmentAndTesting from "../components/DevelopmentAndTesting";
 import Deployment from "../components/Deployment";
 import Contact from "../components/Contact";
+import TabHeader from "../components/TabHeader";
 
 
 const HowWeWork = () => {
     return(
         <div className="text-primary">
+
+            <TabHeader subTitle={"| How we work"}/>
 
             <Navbar />
 

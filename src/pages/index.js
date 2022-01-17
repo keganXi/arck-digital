@@ -8,39 +8,44 @@ import About from "../components/About.jsx";
 import Services from "../components/Services.jsx";
 import Contact from "../components/Contact.jsx";
 import Footer from "../components/Footer.jsx";
+import TabHeader from "../components/TabHeader";
 
 
 // markup
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
+    <div>
+      <TabHeader subTitle={""}/>
       
-      <Navbar />
+      <main>
+        <title>Home Page</title>
+        
+        <Navbar />
 
-      <section>
+        <section>
 
-        <div className="md:my-10 md:px-12 mx-auto p-6">
-          <Intro /> 
-        </div>
+          <div className="md:my-10 md:px-12 mx-auto p-6">
+            <Intro /> 
+          </div>
 
-        <div className="mt-40">
-          <About />
-        </div>
+          <div className="mt-40">
+            <About />
+          </div>
 
-        <div className="mt-20 lg:px-12 mx-auto sm:p-6">
-          <Services />
-        </div>
+          <div className="mt-20 lg:px-12 mx-auto sm:p-6">
+            <Services />
+          </div>
 
-        <div className="mt-10 md:px-12 mx-auto p-6">
-          <Contact />
-        </div>
+          <div className="mt-10 md:px-12 mx-auto p-6">
+            <Contact />
+          </div>
 
-      </section>
+        </section>
 
-      <Footer />
+        <Footer />
 
-    </main>
+      </main>
+    </div>
   )
 }
 

@@ -4,12 +4,15 @@ import React, { Component } from "react";
 // Component imports.
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer.jsx";
+import TabHeader from "../components/TabHeader";
 
 
 class Contact extends Component{
     render(){
         return(
             <div>
+                <TabHeader subTitle={"| Contact"}/>
+
                 <Navbar />
 
                 <main className="md:my-10 justify-center flex">
