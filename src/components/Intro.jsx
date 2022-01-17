@@ -62,7 +62,7 @@ class Intro extends Component {
                         </div>
                     </div>
 
-                    <div className="w-full mt-10 md:mt-0">
+                    <div className="w-full mt-10 md:mt-0 hidden sm:inline-block">
                         <div className="relative">
                             <div>
                                 <div className="flex justify-center">

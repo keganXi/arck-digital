@@ -24,7 +24,7 @@ const IndexPage = () => {
           <Intro /> 
         </div>
 
-        <div className="md:mt-40 mt-64">
+        <div className="mt-40">
           <About />
         </div>
 
