@@ -10,7 +10,7 @@ class Deployment extends Component{
         super(props);
         this.state = {
             title: "Deployment",
-            description: "The day we've been waiting for! before deployment we make sure that you are satisfied with the end product and all your requirements have been met, it's important that all our boxes are checked but evem more important that your's are.",
+            description: "The day we've been waiting for! before deployment we make sure that you are satisfied with the end product and all your requirements have been met, it's important that all our boxes are checked but even more important that your's are.",
         };
     }
 
