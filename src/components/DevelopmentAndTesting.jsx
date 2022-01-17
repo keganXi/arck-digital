@@ -20,7 +20,7 @@ class DevelopmentAndTesting extends Component{
                 <div className="sm:flex">
                     <div className="w-full justify-center flex sm:hidden pb-7">
                         <div>
-                            <img src={DevelopmentAndTestingImage} width="230px" height="230px" alt="development and testing image" />
+                            <img src={DevelopmentAndTestingImage} width="230px" height="230px" alt="development and testing" />
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@ class DevelopmentAndTesting extends Component{
 
                     <div className="w-full justify-center sm:flex sm:pt-0 hidden">
                         <div>
-                            <img src={DevelopmentAndTestingImage} width="250px" height="250px" alt="development and testing image" />
+                            <img src={DevelopmentAndTestingImage} width="250px" height="250px" alt="development and testing" />
                         </div>
                     </div>
                 </div>

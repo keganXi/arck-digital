@@ -20,7 +20,7 @@ class InsightAndRequirements extends Component{
                 <div className="sm:flex">
                     <div className="w-full justify-center flex sm:hidden pb-7">
                         <div>
-                            <img src={InsightAndReqImage} width="500px" height="500px" alt="insight and requirements image" />
+                            <img src={InsightAndReqImage} width="500px" height="500px" alt="insight and requirements" />
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@ class InsightAndRequirements extends Component{
 
                     <div className="w-full justify-center sm:flex sm:pt-0 hidden">
                         <div>
-                            <img src={InsightAndReqImage} width="500px" height="500px" alt="insight and requirements image" />
+                            <img src={InsightAndReqImage} width="500px" height="500px" alt="insight and requirements" />
                         </div>
                     </div>
                 </div>

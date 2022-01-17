@@ -20,7 +20,7 @@ class Deployment extends Component{
                 <div className="sm:flex">
                     <div className="w-full flex pb-7 sm:pb-0">
                         <div className="flex">
-                            <img src={DeploymentImage} width="335px" height="335px" alt="deployment image" />
+                            <img src={DeploymentImage} width="335px" height="335px" alt="deployment" />
                         </div>
                     </div>
 

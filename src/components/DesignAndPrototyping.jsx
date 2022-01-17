@@ -20,7 +20,7 @@ class DesignAndPrototyping extends Component{
                 <div className="sm:flex">
                     <div className="w-full flex pb-7 sm:pb-0">
                         <div className="flex">
-                            <img src={ConstructImage} width="335px" height="335px" alt="design and prototype image" />
+                            <img src={ConstructImage} width="335px" height="335px" alt="design and prototype" />
                         </div>
                     </div>
 

@@ -35,7 +35,7 @@ class Intro extends Component {
                             <div className="pt-9">
                                 <div className="flex">
                                     <div>
-                                        <a href="https://twitter.com/ArckDigital" target="_blank">
+                                        <a href="https://twitter.com/ArckDigital" target="_blank" rel="noreferrer">
                                             <div className="rounded-full shadow-md p-3">
                                                 <img src={TwitterIcon} height="16px" width="16px" alt="twitter icon"/>
                                             </div>
@@ -43,7 +43,7 @@ class Intro extends Component {
                                     </div>
 
                                     <div className="mx-4">
-                                        <a href="https://www.instagram.com/arck_digital/" target="_blank">
+                                        <a href="https://www.instagram.com/arck_digital/" target="_blank" rel="noreferrer">
                                             <div className="rounded-full shadow-md p-3">
                                                 <img src={InstagramIcon} height="16px" width="16px" alt="instagram icon"/>
                                             </div>
@@ -51,7 +51,7 @@ class Intro extends Component {
                                     </div>
 
                                     <div>
-                                        <a href="https://www.linkedin.com/company/arck-digital" target="_blank">
+                                        <a href="https://www.linkedin.com/company/arck-digital" target="_blank" rel="noreferrer">
                                             <div className="rounded-full shadow-md p-3">
                                                 <img src={LinkedinIcon} height="16px" width="16px" alt="linkedin icon"/>
                                             </div>
